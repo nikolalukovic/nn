@@ -6,7 +6,7 @@ set(CMAKE_C_STANDARD 11)
 include_directories(.)
 
 add_executable(ml
-    nn.c
+        xor.c
     nn.h)
 
 target_link_libraries(ml m)

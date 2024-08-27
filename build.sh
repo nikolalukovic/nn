@@ -2,4 +2,4 @@
 
 set -xe
 
-clang -Wall -Wextra -O3 -ffast-math -o nn nn.c -lm
+clang -Wall -Wextra -O3 -ffast-math -o xor xor.c -lm
